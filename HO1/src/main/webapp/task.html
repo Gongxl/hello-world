@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <p>Enqueue a value, to be processed by a worker.</p>
+    <p>Please enter a name and a value:</p>
+ <form action="/enqueue" method="post">
+      <input type="text" name="key">
+      <input type="text" name="value">
+      <input type="submit">
+    </form>
+   
+    <p>Test memcache.</p>
+    <p>Please enter a name and a value:</p>
+      <form action="/memcache" method="post">
+      <input type="text" name="key">
+      <input type="text" name="value">
+      <input type="submit">
+    </form>
+   
+  
+  </body>
+</html>
